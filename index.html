@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style.css">
     <title>Single page app</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <nav>
-        <a href="/episodes" class="nav-link" data-attr>episodes</a>
-    </nav>
+    <div class="hero-nav" id="hero">
+        <div class="hero-nav__inner">
+            <h1 id="showtitle"></h1>
+        </div>
+    </div>
 
+    <div class="page-content" id="summary"></div>
 
+    <div class="page-content" id="app"></div>
     
 </body>
 <script src="./scripts/script.js"></script>
